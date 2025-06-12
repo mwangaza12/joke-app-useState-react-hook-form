@@ -55,7 +55,7 @@ export const JokeComponent = ({ joke, increaseRates, decreaseRates, updateJoke, 
           <button onClick={() => increaseRates(joke.id)} className="btn btn-sm">👍</button>
           <button onClick={() => decreaseRates(joke.id)} className="btn btn-sm">👎</button>
           <button onClick={() => setIsEditing(true)} className="btn btn-sm btn-warning">Edit</button>
-          <button onClick={() => deleteJoke(joke.id)} className="btn btn-sm btn-warning">Delete</button>
+          <button onClick={() => deleteJoke(joke.id)} className="btn btn-sm btn-danger">Delete</button>
         </>
       )}
     </div>
