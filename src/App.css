@@ -27,6 +27,17 @@
   }
 }
 
+.btn{
+  margin: 10px;
+}
+.btn-warning{
+  background-color: orange;
+}
+
+.btn-danger{
+  background-color: red;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
